@@ -5,25 +5,25 @@
 Summary:	GDAL data handler module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł obsługujący dane GDAL dla serwera danych OPeNDAP
 Name:		opendap-gdal_handler
-Version:	0.9.3
+Version:	0.9.4
 Release:	1
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/gdal_handler-%{version}.tar.gz
-# Source0-md5:	1d5f2582e3304cccfed2442dd6f8debd
+# Source0-md5:	fe320903fa1fae1e0da1df6e3e4b3534
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.61
 BuildRequires:	automake >= 1:1.10
-%{?with_tests:BuildRequires:	bes >= 3.9.0}
-BuildRequires:	bes-devel >= 3.9.0
-BuildRequires:	gdal-devel >= 1.7.2
-BuildRequires:	libdap-devel >= 3.11.0
+%{?with_tests:BuildRequires:	bes >= 3.13.0}
+BuildRequires:	bes-devel >= 3.13.0
+BuildRequires:	gdal-devel >= 1.10
+BuildRequires:	libdap-devel >= 3.13.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool >= 2:2
 BuildRequires:	pkgconfig
-Requires:	bes >= 3.9.0
-Requires:	gdal >= 1.7.2
-Requires:	libdap >= 3.11.0
+Requires:	bes >= 3.13.0
+Requires:	gdal >= 1.10
+Requires:	libdap >= 3.13.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
