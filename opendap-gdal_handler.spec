@@ -6,7 +6,7 @@ Summary:	GDAL data handler module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł obsługujący dane GDAL dla serwera danych OPeNDAP
 Name:		opendap-gdal_handler
 Version:	0.9.4
-Release:	2
+Release:	3
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/gdal_handler-%{version}.tar.gz
